@@ -19,6 +19,7 @@ scroll_ignore_camera_zoom = true
 
 [node name="sky" type="ParallaxLayer" parent="." index="0"]
 
+editor/display_folded = true
 motion_scale = Vector2( 1, 1 )
 motion_offset = Vector2( 0, 0 )
 motion_mirroring = Vector2( 0, 0 )
@@ -39,18 +40,21 @@ motion_mirroring = Vector2( 0, 0 )
 
 [node name="clouds" type="Sprite" parent="clouds" index="0"]
 
-position = Vector2( 254.718, 382.792 )
+position = Vector2( 323.584, 382.792 )
+scale = Vector2( 1.25318, 1 )
 texture = ExtResource( 2 )
 _sections_unfolded = [ "Offset" ]
 
 [node name="clouds2" type="Sprite" parent="clouds" index="1"]
 
-position = Vector2( 797.191, 382.524 )
+position = Vector2( 865.936, 382.524 )
+scale = Vector2( 1.25274, 1 )
 texture = ExtResource( 2 )
 
 [node name="clouds3" type="Sprite" parent="clouds" index="2"]
 
-position = Vector2( 1340.85, 382.41 )
+position = Vector2( 1305.69, 382.41 )
+scale = Vector2( 0.69058, 1 )
 texture = ExtResource( 2 )
 
 [node name="sea" type="ParallaxLayer" parent="." index="2"]
