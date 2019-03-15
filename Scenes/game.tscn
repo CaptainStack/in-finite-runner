@@ -26,9 +26,9 @@ text = "Win"
 
 [node name="die" type="Button" parent="."]
 margin_left = 1301.0
-margin_top = 406.0
+margin_top = 405.0
 margin_right = 1338.0
-margin_bottom = 426.0
+margin_bottom = 425.0
 text = "Die"
 
 [node name="TileMap" type="TileMap" parent="."]

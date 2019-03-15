@@ -9,8 +9,8 @@ scroll_ignore_camera_zoom = true
 [node name="sky" type="ParallaxLayer" parent="."]
 
 [node name="Sprite" type="Sprite" parent="sky"]
-position = Vector2( 0.325195, -2.13025 )
-scale = Vector2( 12.3, 2.6 )
+position = Vector2( -5911.29, -356.086 )
+scale = Vector2( 12.8912, 3.30791 )
 texture = ExtResource( 1 )
 centered = false
 region_enabled = true
@@ -19,8 +19,8 @@ region_rect = Rect2( 0, 0, 10000, 500 )
 [node name="clouds" type="ParallaxLayer" parent="."]
 
 [node name="clouds" type="Sprite" parent="clouds"]
-position = Vector2( 323.584, 382.792 )
-scale = Vector2( 1.25318, 1 )
+position = Vector2( 6221.16, 382.792 )
+scale = Vector2( 2.43269, 1 )
 texture = ExtResource( 2 )
 region_enabled = true
 region_rect = Rect2( 0, 0, 10000, 240 )
